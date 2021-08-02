@@ -1,5 +1,4 @@
-
-irina@IRA-NOUT MINGW64 ~
+1)irina@IRA-NOUT MINGW64 ~
 $ ssh-keygen -t rsa -C "irinakorobeinikova"
 Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/irina/.ssh/id_rsa):
@@ -25,16 +24,6 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 irina@IRA-NOUT MINGW64 ~
-$ find *.ssh*
-find: ‘*.ssh*’: No such file or directory
-
-irina@IRA-NOUT MINGW64 ~
-$ find ./.ssh
-./.ssh
-./.ssh/id_rsa
-./.ssh/id_rsa.pub
-
-irina@IRA-NOUT MINGW64 ~
 $ git config --global user.email "irinakor81@mail.ru"
 
 irina@IRA-NOUT MINGW64 ~
@@ -48,12 +37,60 @@ irina@IRA-NOUT MINGW64 ~
 $ git config --global user.name
 irinakorobeinikova
 
-irina@IRA-NOUT MINGW64 ~
-$ pwd
-/c/Users/irina
 
-irina@IRA-NOUT MINGW64 ~
+2)irina@IRA-NOUT MINGW64 ~/git/Github
+$ pwd
+/c/Users/irina/git/Github
+
+irina@IRA-NOUT MINGW64 ~/git/Github
 $ git clone https://github.com/irinakorobeinikova/group_21.git
 Cloning into 'group_21'...
 warning: You appear to have cloned an empty repository.
+
+irina@IRA-NOUT MINGW64 ~/git/Github
+$ ls -la
+total 4
+drwxr-xr-x 1 irina 197121 0 Aug  2 03:04 ./
+drwxr-xr-x 1 irina 197121 0 Aug  2 02:46 ../
+drwxr-xr-x 1 irina 197121 0 Aug  2 03:04 group_21/
+
+irina@IRA-NOUT MINGW64 ~/git/Github
+$ cd group_21/
+
+irina@IRA-NOUT MINGW64 ~/git/Github/group_21 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Homework_2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+irina@IRA-NOUT MINGW64 ~/git/Github/group_21 (master)
+$ git add Homework_2.txt
+
+irina@IRA-NOUT MINGW64 ~/git/Github/group_21 (master)
+$ git commit -m "Homework_commit1"
+[master (root-commit) c867320] Homework_commit1
+ 1 file changed, 59 insertions(+)
+ create mode 100644 Homework_2.txt
+
+irina@IRA-NOUT MINGW64 ~/git/Github/group_21 (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 859 bytes | 143.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/irinakorobeinikova/group_21.git
+ * [new branch]      master -> master
+
+
+
+
+
 
