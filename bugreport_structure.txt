@@ -1,0 +1,22 @@
+ID: 1
+
+Summary: Button [2] interface is different from the rest of the buttons.
+
+
+Severity (Critical, Major, Medium, Minor): Minor
+
+
+Description: Оn the button [2] anouther color and size of the number is displayed.
+
+
+
+OS: Windows 10
+
+Road around: not required.
+
+
+Steps to reproduce: 1. Open calc.exe
+
+Actual result: Оn the button [2] anouther color and size of the number is displayed.
+
+Expected result: Оn the button [2] the same color and size of the number is displayed.
