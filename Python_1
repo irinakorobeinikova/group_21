@@ -1,0 +1,92 @@
+user = 'Daria'
+print(user),
+print('user type =', type(user))
+# todo 1) Создать переменную типа String
+
+age = 18
+print(age)
+print('age type =', type(age))
+# todo 2) Создать переменную типа Integer
+
+weight = 45.35
+print(weight)
+print('weight type =', type(weight))
+# todo 3) Создать переменную типа Float
+
+b = bytes(b'What does it mean?')
+print(b)
+print('b =', type(b))
+# todo 4) Создать переменную типа Bytes
+
+ticket = [123, 456, 789]
+print(ticket)
+print('ticket type =', type(ticket))
+# todo 5) Создать переменную типа List
+
+card = (123456789, 'FGHJH1233' )
+print(card)
+print('card type =', type(card))
+# todo 6) Создать переменную типа Tuple
+
+phone = {89052445735, 'Irina'}
+print(phone)
+print('phone type =', type(phone))
+# todo 7) Создать переменную типа Set
+
+title = frozenset({'Hello students'})
+print(title)
+print('title type =', type(title))
+# todo 8) Создать переменную типа Frozenset
+
+dict_emploees = dict({1:'name', 2:'lastname'})
+print(dict_emploees)
+print('dict_emploees type =', type(dict_emploees))
+# todo 9) Создать переменную типа Dict
+
+# todo 10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных
+
+param_1 = 'Good'
+param_2 = 'morning'
+param_3 = param_1 + param_2
+print('param_3 type =', type(param_3))
+# todo 11) Создать две переменные String, создать переменную в которой суммируете эти переменные.
+#  Вывести в консоль.
+
+param_4 = 9
+param_5 = 3
+param_6 = param_4 + param_5
+print(param_6, type(param_6))
+#todo 12) Создать две переменные Integer, создать переменную в которой суммируете эти переменные.
+#  Вывести в консоль.
+
+param_7 = 15
+param_8 = 4
+param_9 = param_7 / param_8
+print(param_9, type(param_9))
+#todo 13) Создать переменную, в которой разделите эти переменные Int
+#  Вывести в консоль.
+
+param_10 = 6
+param_11 = 8
+param_12 = param_10 * param_11
+print(param_12, type(param_12))
+#todo 14) Создать переменную, в которой умножите эти переменные Int
+#  Вывести в консоль.
+
+param_13 = 19
+param_14 = 6
+param_15 = param_13 // param_14
+print(param_15, type(param_15))
+#todo 15) Создать переменную, в которой разделите без остатка эти переменные Int
+#  Вывести в консоль.
+
+param_16 = 7
+param_17 = 2
+param_18 = param_16 % param_17
+print(param_18, type(param_18))
+#todo 16) Создать переменную, в которой надо присвоить остаток от деления этих переменных
+#  Вывести в консоль.
+
+
+
+
